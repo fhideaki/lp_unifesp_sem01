@@ -14,5 +14,5 @@ int main (){
         printf("O denominador não pode ser zero, digite outro número: ");
         scanf("%f", &n2);
     }
-    printf(".2%f", n1/n2);
+    printf("%.2f", n1/n2);
 }
